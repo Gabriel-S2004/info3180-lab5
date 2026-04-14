@@ -8,7 +8,7 @@ class MovieForm(FlaskForm):
     title = StringField("Movie Title", validators=[DataRequired()])
     description = TextAreaField("Description", validators=[DataRequired()])
     poster = FileField(
-        "Poster",
+        "Photo",
         validators=[
             FileRequired(),
             FileAllowed(["jpg", "jpeg", "png", "gif"], "Images only!")

@@ -22,11 +22,11 @@
       </div>
 
       <div class="form-group mb-3">
-        <label for="poster" class="form-label">Poster</label>
+        <label for="poster" class="form-label">Photo</label>
         <input type="file" name="poster" id="poster" class="form-control" />
       </div>
 
-      <button type="submit" class="btn btn-primary">Save Movie</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
 </template>

@@ -17,13 +17,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <RouterLink to="/" class="nav-link active">Home</RouterLink>
+              <RouterLink to="/" class="nav-link" active-class="active" exact>Home</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/about">About</RouterLink>
+              <RouterLink to="/about" class="nav-link" active-class="active">About</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/movies/create">Add Movie</RouterLink>
+              <RouterLink to="/movies/create" class="nav-link" active-class="active">Add Movie</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink to="/movies" class="nav-link" active-class="active">Movies</RouterLink>
             </li>
           </ul>
         </div>
